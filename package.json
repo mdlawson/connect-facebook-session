@@ -1,6 +1,6 @@
 {
   "name": "connect-facebook-session",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parses facebook session cookies to get the facebook userID",
   "main": "index.js",
   "scripts": {
