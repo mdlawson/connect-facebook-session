@@ -1,0 +1,12 @@
+{
+  "name": "connect-facebook-session",
+  "version": "1.0.0",
+  "description": "Parses facebook session cookies to get the facebook userID",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Lawson",
+  "license": "MIT",
+  "dependencies":{}
+}
