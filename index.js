@@ -17,6 +17,8 @@ module.exports = function(options) {
   };
   return function(req, res, next){
     var cookie = req.cookies["fbsr_"+appId];
+    var signed = req.body.signed_request;
+    if (signed) { cookie = signed; }
     if (cookie) {
       req.facebook = parse(cookie);
     }
